@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body,h1,h2,h3,a,p {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2 {
+    line-height: 1.3em;
+    margin: 20px 0;
+}
+h1 {
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* MENÚ HORIZONTAL SUPERIOR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e7e7;
+    width: 100%;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul > li {
+    padding: 12px;
+}
+
+nav > ul > li> a {
+    display: block;
+    padding: 14px 14px;
+    color: #3b3b3b;
+}
+
+nav > ul > li> a:hover {
+    color: #000;
+}
+
+.btn-login {
+    border: 1px solid #2e325a;
+    border-radius: 4px;
+    color: #2e325a;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.logo {
+    height: 60px;
+}
+/* Fin: MENÚ HORIZONTAL SUPERIOR */
+
+/* PRIMERA SECCiÓN PRINCIPAL */
+.seccion-principal {
+    background-color: rgba(220,222,232,0.53);
+}
+
+.seccion-principal-texto {
+    flex-basis: 600px;
+    padding: 20px 0 40px;
+}
+
+.seccion-principal-texto p {
+    font-size: 1.2rem;
+    line-height: 34px;
+}
+
+.contact-sales-btn {
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #5eba41;
+    margin: 20px 0;
+    padding: 16px 30px 16px 30px;
+}
+
+.imagen-principal {
+    height: 460px;
+    width: 460px;
+}
+/* Fin: PRIMERA SECCiÓN PRINCIPAL */
+
+
+
+
+/* SEGUNDA SECCiÓN: Call to action */
+.seccion-call-to-action {
+    padding: 30px 0;
+    background-color: #dc6e2f;
+    color: #ffffff;
+}
+
+.seccion-central {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.seccion-central a {
+    border: 2px solid #FFF;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    padding: 14px;
+    font-size: 1.2rem;
+    width: 300px;
+}
+
+/* TERCERA SECCION*/
+
+.titulo-sensores {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.contenedor-info-sensores {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.item-container{
+    background-color: #21bdb7;
+    border-radius: 4px;
+    box-shadow: 1px 10px 20px rgba(0,0,0,0.19), 2px 6px 8px rgba(0,0,0,0.23);
+    color: #ffffff;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 2em 10px;
+}
+
+.item-centrado {
+    font-size: 1.4rem;
+    font-weight: 100;
+    justify-content: center;
+}
+
+.item{
+    padding: 1em;
+    margin-bottom: .2em;
+    display: flex;
+    justify-content: space-between;
+}
+
